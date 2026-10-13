@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pcristo.dev/gym-journal-website/sitemap.xml

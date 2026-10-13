@@ -1,0 +1,4 @@
+# Verification screenshots produced by tools/verify.mjs
+.verify/
+
+.DS_Store

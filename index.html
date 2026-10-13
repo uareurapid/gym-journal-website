@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gym Journal — a lifting journal for iPhone and iPad</title>
+<meta name="description" content="Gym Journal writes down every set as you do it — by hand or by voice — and shows you whether you are getting stronger. No programme, no account, no ads. Free to download.">
+<meta name="author" content="Paulo Cristo">
+<meta name="theme-color" content="#14161B">
+<link rel="canonical" href="https://pcristo.dev/gym-journal-website/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gym Journal">
+<meta property="og:title" content="Gym Journal — No programme. Just progress.">
+<meta property="og:description" content="A lifting journal, not a training plan. Log every set by hand or by voice, and watch the numbers go up.">
+<meta property="og:url" content="https://pcristo.dev/gym-journal-website/">
+<meta property="og:image" content="https://pcristo.dev/gym-journal-website/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gym Journal — No programme. Just progress.">
+<meta name="twitter:description" content="A lifting journal, not a training plan. Log every set by hand or by voice, and watch the numbers go up.">
+<meta name="twitter:image" content="https://pcristo.dev/gym-journal-website/assets/img/og.png">
+
+<link rel="icon" href="assets/img/favicon.ico" sizes="any">
+<link rel="icon" href="assets/img/icon-192.png" type="image/png" sizes="192x192">
+<link rel="icon" href="assets/img/icon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="assets/img/screen-log.webp">
+<link rel="stylesheet" href="styles.css">
+
+<script>document.documentElement.classList.add('js');</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Gym Journal",
+  "applicationCategory": "HealthApplication",
+  "applicationSubCategory": "Fitness",
+  "operatingSystem": "iOS, iPadOS",
+  "softwareVersion": "1.0.0",
+  "url": "https://pcristo.dev/gym-journal-website/",
+  "downloadUrl": "https://apps.apple.com/us/app/gym-journal-sets-reps-log/id6817376632",
+  "inLanguage": ["en", "es", "fr"],
+  "author": { "@type": "Person", "name": "Paulo Cristo" },
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "description": "Gym Journal is a lifting journal, not a training plan. It records every set you do — by hand or by voice — and shows whether each lift is going up. Free forever for logging, history, streaks, personal records and plate maths."
+}
+</script>
+</head>
+<body>
+
+<a class="skip btn btn--ghost" href="#main">Skip to content</a>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ── Nav: the app's floating glass capsule ───────────────────────────────── -->
+<header class="nav" id="nav">
+  <nav class="nav__inner" aria-label="Primary">
+    <a class="nav__brand" href="#top">
+      <img src="assets/img/icon-192.png" alt="" width="30" height="30" decoding="async">
+      Gym Journal
+    </a>
+    <div class="nav__links">
+      <a href="#idea">What it is</a>
+      <a href="#logging">Logging</a>
+      <a href="#progress">Progress</a>
+      <a href="#pro">Pro</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a class="btn btn--ember" href="https://apps.apple.com/us/app/gym-journal-sets-reps-log/id6817376632">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
+      Get the app
+    </a>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- ── Hero ────────────────────────────────────────────────────────────────── -->
+<section class="hero" id="top">
+  <div class="glow glow--hero" aria-hidden="true"></div>
+  <div class="glow glow--hero-2" aria-hidden="true"></div>
+  <div class="hatch" aria-hidden="true"></div>
+
+  <div class="shell hero__grid">
+    <div class="hero__copy">
+      <p class="hero__eyebrow">
+        <span aria-hidden="true"></span>
+        A lifting journal
+      </p>
+
+      <h1 class="display-xl">
+        No programme.<br>
+        Just <span class="ember-text">progress</span>.
+      </h1>
+
+      <p class="lede hero__sub">
+        Gym Journal isn't a training plan. It writes down every set as you do it — by hand
+        or by voice — so you can see whether you're actually getting stronger, without being
+        tied to a routine you didn't write.
+      </p>
+
+      <div class="btn-row">
+        <a class="btn btn--ember btn--big" href="https://apps.apple.com/us/app/gym-journal-sets-reps-log/id6817376632">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
+          Download on the App Store
+        </a>
+        <a class="btn btn--ghost btn--big" href="#logging">See how it works</a>
+      </div>
+
+      <ul class="hero__proof">
+        <li>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+          No account
+        </li>
+        <li>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+          No ads
+        </li>
+        <li>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+          Your data stays yours
+        </li>
+        <li>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+          Free to download
+        </li>
+      </ul>
+    </div>
+
+    <div class="hero__device">
+      <div class="phone">
+        <span class="phone__bloom" aria-hidden="true"></span>
+        <img src="assets/img/screen-log.webp" width="780" height="1696"
+             alt="The Gym Journal Log screen: today's session with Barbell Bench Press, two sets logged, a personal record, session volume of 410 kg and estimated 1RM of 33.3 kg."
+             fetchpriority="high" decoding="async">
+      </div>
+
+      <p class="chip chip--a">
+        <span class="chip__badge">2 SETS</span>
+        <b>25&nbsp;kg</b> <i>×</i> <b>10</b>
+      </p>
+      <p class="chip chip--b">
+        <span class="chip__badge chip__badge--ember">PR</span>
+        <b>25&nbsp;kg</b> <i>×</i> <b>10</b>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ── Marquee: the sets people actually log ──────────────────────────────── -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <div class="marquee__set">
+      <span class="marquee__item"><b>Barbell Bench Press</b> 25 kg × 10 <em>PR</em></span>
+      <span class="marquee__item"><b>Back Squat</b> 100 kg × 5</span>
+      <span class="marquee__item"><b>Deadlift</b> 140 kg × 3 <em>PR</em></span>
+      <span class="marquee__item"><b>Overhead Press</b> 45 kg × 8</span>
+      <span class="marquee__item"><b>Pull-up</b> Bodyweight × 12</span>
+      <span class="marquee__item"><b>Bent-over Barbell Row</b> 70 kg × 8</span>
+      <span class="marquee__item"><b>Incline Dumbbell Press</b> 30 kg × 10</span>
+      <span class="marquee__item"><b>Lat Pulldown</b> 62.5 kg × 12</span>
+      <span class="marquee__item"><b>Romanian Deadlift</b> 90 kg × 8 <em>PR</em></span>
+      <span class="marquee__item"><b>Dumbbell Fly</b> 14 kg × 12</span>
+    </div>
+    <div class="marquee__set">
+      <span class="marquee__item"><b>Barbell Bench Press</b> 25 kg × 10 <em>PR</em></span>
+      <span class="marquee__item"><b>Back Squat</b> 100 kg × 5</span>
+      <span class="marquee__item"><b>Deadlift</b> 140 kg × 3 <em>PR</em></span>
+      <span class="marquee__item"><b>Overhead Press</b> 45 kg × 8</span>
+      <span class="marquee__item"><b>Pull-up</b> Bodyweight × 12</span>
+      <span class="marquee__item"><b>Bent-over Barbell Row</b> 70 kg × 8</span>
+      <span class="marquee__item"><b>Incline Dumbbell Press</b> 30 kg × 10</span>
+      <span class="marquee__item"><b>Lat Pulldown</b> 62.5 kg × 12</span>
+      <span class="marquee__item"><b>Romanian Deadlift</b> 90 kg × 8 <em>PR</em></span>
+      <span class="marquee__item"><b>Dumbbell Fly</b> 14 kg × 12</span>
+    </div>
+  </div>
+</div>
+
+<!-- ── The idea ────────────────────────────────────────────────────────────── -->
+<section class="section" id="idea">
+  <div class="shell statement">
+    <div data-reveal>
+      <p class="marker"><b>00</b> The idea</p>
+      <p class="pull">
+        Most training apps want to plan your workouts for you. Gym Journal doesn't.
+        You don't need a programme to make progress — you need a <em>record</em> of what you
+        actually lifted.
+      </p>
+    </div>
+
+    <div class="portrait-note" data-reveal style="--delay:120ms">
+      <p>
+        Pick a split, follow the routine, hit numbers someone else chose: that's what the rest
+        of the category sells. This is the other thing. It writes down each set as you do it,
+        so the progress is yours to read — not somebody's programme telling you it's there.
+      </p>
+      <p>
+        Log what you trained, in the order you trained it. The record does the rest.
+      </p>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ── Four screens ────────────────────────────────────────────────────────── -->
+<section class="section" id="screens">
+  <div class="shell">
+    <div class="mx-auto center" style="max-width:44rem;margin-bottom:clamp(2.5rem,5vw,4rem)" data-reveal>
+      <p class="marker" style="justify-content:center"><b>01</b> The app</p>
+      <h2 class="display-l">Four screens.<br>Nothing else to learn.</h2>
+      <p class="lede mt-s">
+        No dashboards to configure, no coach to argue with. The whole app is a log, a chart,
+        a library and you.
+      </p>
+    </div>
+
+    <div class="rail">
+      <figure class="rail__item" data-reveal>
+        <div class="phone">
+          <img src="assets/img/screen-log.webp" width="780" height="1696" loading="lazy" decoding="async"
+               alt="The Log screen showing today's session, sets logged, session volume and estimated 1RM.">
+        </div>
+        <figcaption class="rail__meta">
+          <b>Log</b>
+          <p>Today's session, the sets you've done, and a running volume.</p>
+        </figcaption>
+      </figure>
+
+      <figure class="rail__item" data-reveal style="--delay:90ms">
+        <div class="phone">
+          <img src="assets/img/screen-progress.webp" width="780" height="1696" loading="lazy" decoding="async"
+               alt="The Progress screen: a load-over-time chart for Barbell Bench Press with 1M, 3M, 6M and All range tabs.">
+        </div>
+        <figcaption class="rail__meta">
+          <b>Progress</b>
+          <p>One movement at a time. The chart, the sessions, the volume.</p>
+        </figcaption>
+      </figure>
+
+      <figure class="rail__item" data-reveal style="--delay:180ms">
+        <div class="phone">
+          <img src="assets/img/screen-exercises.webp" width="780" height="1696" loading="lazy" decoding="async"
+               alt="The Exercises screen: a searchable list of ninety movements grouped by body part, starting with the Chest group.">
+        </div>
+        <figcaption class="rail__meta">
+          <b>Exercises</b>
+          <p>Ninety movements across six body parts, with your own on top.</p>
+        </figcaption>
+      </figure>
+
+      <figure class="rail__item" data-reveal style="--delay:270ms">
+        <div class="phone">
+          <img src="assets/img/screen-you.webp" width="780" height="1696" loading="lazy" decoding="async"
+               alt="The You screen: level and XP, this week's sessions, weekly streak, days trained, bodyweight and relative strength.">
+        </div>
+        <figcaption class="rail__meta">
+          <b>You</b>
+          <p>Level, streak, bodyweight, relative strength and goals.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ── 02 · Log it in seconds ─────────────────────────────────────────────── -->
+<section class="section" id="logging">
+  <div class="shell feature">
+    <div class="feature__body" data-reveal>
+      <p class="marker"><b>02</b> Logging</p>
+      <h2 class="display-l">Logging has to cost nothing, or you stop doing it.</h2>
+      <p class="lede mt-s">
+        One set, not a spreadsheet. The sheet already knows the last weight you used and tells you
+        when you're in personal-record territory — before you've touched the bar.
+      </p>
+
+      <ul class="specs mt-m">
+        <li>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1"/><path d="M12 18v4"/></svg>
+          <span><b>Say it out loud</b> <span>“Bench press 60 kilos for 8” and the set is saved before you leave the rack. Voice runs on your phone, offline — no account, no key, nothing sent anywhere.</span></span>
+        </li>
+        <li>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+          <span><b>Or by hand</b> <span>Reps and weight with the last time you did it shown underneath, so you know what you're beating.</span></span>
+        </li>
+        <li>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 6.5 17.5 17.5"/><path d="m21 21-1-1"/><path d="m3 3 1 1"/><path d="m18 22 4-4"/><path d="m2 6 4-4"/><path d="m3 10 7-7"/><path d="m14 21 7-7"/></svg>
+          <span><b>90 exercises, six body parts</b> <span>Chest, back, legs, arms, shoulders and core — plus movements of your own.</span></span>
+        </li>
+        <li>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <span><b>kg or lb, warm-ups marked</b> <span>Set your unit once. Warm-up sets stay out of your records, and the plate maths is there when you load the bar.</span></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="feature__visual" data-reveal style="--delay:120ms">
+      <div class="phone">
+        <span class="phone__bloom" aria-hidden="true"></span>
+        <img src="assets/img/screen-setsheet.webp" width="780" height="1696" loading="lazy" decoding="async"
+             alt="The Log a set sheet for Barbell Bench Press, with 10 reps and 25 kg entered, the last session shown beneath, and a PR TERRITORY note warning this beats the best estimated 1RM.">
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ── 03 · The record ────────────────────────────────────────────────────── -->
+<section class="section" id="progress">
+  <div class="shell record">
+    <div class="record__visual" data-reveal>
+      <div class="record__card">
+        <p class="record__label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="m15.477 12.89 1.523 9.11-5-3-5 3 1.523-9.11"/></svg>
+          Personal record
+        </p>
+        <p class="record__move">Back squat</p>
+        <p class="record__num">
+          <span data-count-to="105" data-count-from="95">105</span>
+          <small>kg × 5</small>
+        </p>
+        <p class="record__delta">Beat <b>100&nbsp;kg × 5</b> from three weeks ago</p>
+
+        <div class="record__bars" aria-hidden="true">
+          <i style="--h:38%"></i>
+          <i style="--h:52%"></i>
+          <i style="--h:47%"></i>
+          <i style="--h:66%"></i>
+          <i style="--h:74%"></i>
+          <i style="--h:88%"></i>
+          <i style="--h:100%"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__body" data-reveal style="--delay:120ms">
+      <p class="marker"><b>03</b> The payoff</p>
+      <h2 class="display-l">Proof you're getting stronger.</h2>
+      <p class="lede mt-s">
+        The only way to see progress is to look back — and looking back is miserable when the
+        numbers are in your head. Gym Journal keeps them, catches every record as it happens,
+        and shows you the trend on the movements that matter to you.
+      </p>
+
+      <ul class="specs mt-m">
+        <li>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          <span><b>Records, caught automatically</b> <span>Beat your best estimated 1RM and the app notices, celebrates it properly, and files it against the movement.</span></span>
+        </li>
+        <li>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>
+          <span><b>Charts by movement, by period</b> <span>Load over time with top set and estimated 1RM, sessions logged, volume, and how it compares with four weeks ago.</span></span>
+        </li>
+        <li>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14-.22-4.05 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.15.43-2.29 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          <span><b>A weekly streak that's honest</b> <span>It counts the weeks you trained — not the days you didn't.</span></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ── Lifty / habit ──────────────────────────────────────────────────────── -->
+<section class="section" id="lifty">
+  <div class="shell lifty">
+    <div class="lifty__stage" data-reveal>
+      <span class="lifty__hint">Lifty — levels up as you train</span>
+      <img src="assets/img/lifty-female.png" width="512" height="512" loading="lazy" decoding="async"
+           alt="Lifty, the Gym Journal mascot, mid overhead press with a barbell.">
+      <img src="assets/img/lifty-male.png" width="512" height="512" loading="lazy" decoding="async"
+           alt="Lifty in his second look, mid overhead press with a barbell.">
+    </div>
+
+    <div class="feature__body" data-reveal style="--delay:120ms">
+      <p class="marker"><b>04</b> The habit</p>
+      <h2 class="display-l">Consistency, without the nagging.</h2>
+      <p class="lede mt-s">
+        Progress on your terms means a goal you set, not a target someone assigned. Say you're
+        chasing 100&nbsp;kg on the squat, or two hundred reps of rows in a month — Gym Journal
+        measures it from the sets you actually log.
+      </p>
+
+      <ul class="specs mt-m">
+        <li>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <span><b>Goals that are yours</b> <span>A weight you're chasing, or a total number of reps. It shows up on the You screen, measured from your own sets.</span></span>
+        </li>
+        <li>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a4 4 0 0 1 4 4v1a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+          <span><b>Levels, and gear for Lifty</b> <span>He levels up as you train, and picks up new kit on the way. It's a mascot, not a coach.</span></span>
+        </li>
+        <li>
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+          <span><b>Reminders that stay quiet</b> <span>Two a day at most, and they back off if you stop answering. You can turn them off entirely and lose nothing.</span></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ── Free vs Pro ────────────────────────────────────────────────────────── -->
+<section class="section section--surface" id="pro">
+  <div class="shell">
+    <div class="mx-auto center" style="max-width:42rem" data-reveal>
+      <p class="marker" style="justify-content:center"><b>05</b> Plans</p>
+      <h2 class="display-l">Free for ever. Pro is depth.</h2>
+      <p class="lede mt-s">
+        Everything that makes the app worth opening — logging, your history, streaks, records
+        and plate maths — costs nothing and always will. Pro sells a longer view of data you
+        already own. It never sells access to your own sets.
+      </p>
+    </div>
+
+    <div class="tiers mt-m" style="margin-top:clamp(2.5rem,5vw,3.5rem)">
+      <div class="tier tier--free" data-reveal>
+        <div class="tier__head">
+          <p class="tier__name">Free</p>
+          <p class="tier__note">For ever</p>
+        </div>
+        <ul>
+          <li>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            <span><b>Unlimited logging</b> — sets, reps, loads, warm-ups, by hand or by voice.</span>
+          </li>
+          <li>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            <span><b>Your full history</b> — every session you've ever recorded, readable for ever.</span>
+          </li>
+          <li>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            <span><b>Personal records</b> — caught and celebrated automatically.</span>
+          </li>
+          <li>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            <span><b>The weekly streak</b> and the one-month chart range.</span>
+          </li>
+          <li>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            <span><b>Plate maths</b>, kg or lb, and iCloud sync across your devices.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tier tier--pro" data-reveal style="--delay:120ms">
+        <div class="tier__head">
+          <p class="tier__name">Pro</p>
+          <p class="tier__note">From a 3-day free trial</p>
+        </div>
+        <ul>
+          <li>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            <span><b>The long view</b> — chart three months, six months or everything, and watch each lift trend.</span>
+          </li>
+          <li>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            <span><b>Unlimited movements of your own</b> — two free, as many as you train with Pro.</span>
+          </li>
+          <li>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+            <span>Monthly, yearly, or a one-time lifetime unlock. Cancel any time.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="tiers__foot" data-reveal>
+      Current prices, the trial length and the lifetime unlock are shown on the
+      <a href="https://apps.apple.com/us/app/gym-journal-sets-reps-log/id6817376632">App Store listing</a>,
+      where Apple localises them for your region.
+    </p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ── Privacy ────────────────────────────────────────────────────────────── -->
+<section class="section" id="privacy">
+  <div class="shell">
+    <div data-reveal style="max-width:46rem">
+      <p class="marker"><b>06</b> Your data</p>
+      <h2 class="display-l">No accounts, no ads, no data mining.</h2>
+      <p class="lede mt-s">
+        Gym Journal doesn't collect anything when you download and use it. Registration isn't
+        required, and there's no analytics SDK sitting underneath the log screen. What you lift
+        is nobody's business but yours.
+      </p>
+    </div>
+
+    <div class="promise">
+      <div class="promise__card" data-reveal>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="20" x="5" y="2" rx="2"/><path d="M12 18h.01"/></svg>
+        <h4>On your device</h4>
+        <p>Your sets live on the phone in your pocket. Uninstalling the app is the opt-out, and it works completely.</p>
+      </div>
+      <div class="promise__card" data-reveal style="--delay:90ms">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+        <h4>Synced through your iCloud</h4>
+        <p>Turn sync on and your sets travel through your own private iCloud. We never see them.</p>
+      </div>
+      <div class="promise__card" data-reveal style="--delay:180ms">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+        <h4>Nothing shared</h4>
+        <p>No third parties, no location, no microphone recording kept. Voice is transcribed on-device and the audio is never saved.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ── FAQ ────────────────────────────────────────────────────────────────── -->
+<section class="section" id="faq">
+  <div class="shell">
+    <div data-reveal>
+      <p class="marker"><b>07</b> Questions</p>
+      <h2 class="display-l">Reasonable things to ask.</h2>
+    </div>
+
+    <div class="faq">
+      <details data-reveal>
+        <summary>Is this a training app? Will it tell me what to lift?</summary>
+        <p>
+          No, and that's the point. Gym Journal doesn't build programmes, prescribe splits or
+          pick your weights — other apps do that better and this one doesn't try. It's a
+          journal: it records what you did and shows you whether the numbers are moving.
+        </p>
+      </details>
+
+      <details data-reveal>
+        <summary>Do I need an account?</summary>
+        <p>
+          No. There's no signup, no login and no email required. Open it, tell it your
+          bodyweight if you want relative strength, and start logging.
+        </p>
+      </details>
+
+      <details data-reveal>
+        <summary>How does voice logging work if there's no server?</summary>
+        <p>
+          You hold the talk button and say the set — “bench press 60 kilos for eight”. It's
+          turned into a logged set on your phone. When the on-device speech model is
+          available it runs entirely offline; otherwise iOS dictation handles it. The audio is
+          never saved, by us or by the app.
+        </p>
+      </details>
+
+      <details data-reveal>
+        <summary>What exactly does Pro unlock?</summary>
+        <p>
+          Two things, both about depth rather than access: the longer chart ranges (three
+          months, six months, all time — one month is free), and unlimited movements of your
+          own beyond the two free custom exercises. Logging, your history, streaks, records and
+          plate maths stay free for ever.
+        </p>
+      </details>
+
+      <details data-reveal>
+        <summary>What happens to my data if I stop paying?</summary>
+        <p>
+          Nothing is taken away. Every session you've logged stays readable at any range, and
+          movements you created stay editable and deletable. Pro buys a longer window on the
+          chart, not ownership of your training history.
+        </p>
+      </details>
+
+      <details data-reveal>
+        <summary>Which languages does it speak?</summary>
+        <p>
+          English, Spanish and French — including the voice commands, which follow the
+          language you've set.
+        </p>
+      </details>
+
+      <details data-reveal>
+        <summary>Does it work on iPad?</summary>
+        <p>
+          Yes. Gym Journal runs on iPhone and iPad, and syncs between them through your own
+          iCloud when you turn sync on.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ── Closer ─────────────────────────────────────────────────────────────── -->
+<section class="section closer">
+  <div class="shell">
+    <div class="closer__card" data-reveal>
+      <p class="kicker kicker--ember">Start with your next set</p>
+      <h2 class="display-l" style="font-size:clamp(2.25rem,6vw,4.25rem)">
+        Write down your lifts.<br>
+        Watch them <span class="ember-text">add up</span>.
+      </h2>
+      <p class="lede" style="max-width:44ch">
+        Free to download, free to log, free for ever. Bring the routine you already follow —
+        Gym Journal just keeps the record.
+      </p>
+      <div class="btn-row">
+        <a class="btn btn--ember btn--big" href="https://apps.apple.com/us/app/gym-journal-sets-reps-log/id6817376632">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 17V3"/><path d="m6 11 6 6 6-6"/><path d="M19 21H5"/></svg>
+          Download on the App Store
+        </a>
+        <a class="btn btn--ghost btn--big" href="#top">Back to the top</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ── Footer ─────────────────────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="shell">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a class="nav__brand" href="#top">
+          <img src="assets/img/icon-192.png" alt="" width="32" height="32" loading="lazy" decoding="async">
+          Gym Journal
+        </a>
+        <p>
+          A lifting journal for people who train their own way. Made by Paulo Cristo for
+          iPhone and iPad.
+        </p>
+      </div>
+
+      <div>
+        <h4>The app</h4>
+        <ul>
+          <li><a href="#idea">What it is</a></li>
+          <li><a href="#logging">Logging</a></li>
+          <li><a href="#progress">Progress</a></li>
+          <li><a href="#lifty">Lifty and levels</a></li>
+          <li><a href="#pro">Free and Pro</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="https://apps.apple.com/us/app/gym-journal-sets-reps-log/id6817376632">App Store</a></li>
+          <li><a href="privacy.html">Privacy policy</a></li>
+          <li><a href="terms.html">Terms of use</a></li>
+          <li><a href="mailto:paulocristo@me.com">paulocristo@me.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__legal">
+      <p>© <span data-year>2026</span> Paulo Cristo. Gym Journal is an independent app, not affiliated with Apple.</p>
+      <p>Apple, iPhone and iPad are trademarks of Apple Inc.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>

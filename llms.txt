@@ -1,0 +1,52 @@
+# Gym Journal — Sets & Reps Log for iPhone and iPad
+
+> A lifting journal, not a training plan. Log every set by hand or by voice, catch every personal record, and watch each lift trend — local-first, no account, no ads.
+
+Gym Journal is a native iOS and iPadOS app for lifters who follow their own programme: it does
+not build routines, prescribe splits or choose your weights. It records what you actually lifted
+and shows whether it is going up. All data lives on the device; there is no signup, no analytics
+and no advertising. iCloud sync is optional and free.
+
+## Key pages
+
+- [Home](https://pcristo.dev/gym-journal-website/): what it is, logging, progress, free vs Pro, FAQ
+- [App Store](https://apps.apple.com/us/app/gym-journal-sets-reps-log/id6817376632)
+- [Privacy Policy](https://pcristo.dev/gym-journal-website/privacy.html)
+- [Terms of Use](https://pcristo.dev/gym-journal-website/terms.html)
+
+## Features
+
+- **Logging** — a set by hand, or by voice: hold the button, say "bench press 60 kilos for 8", and
+  the set is saved. Voice transcription runs on-device and the audio is never stored.
+- **Exercise library** — 90 movements across six body parts (chest, back, legs, arms, shoulders,
+  core), plus custom movements of your own.
+- **Personal records** — caught automatically against your best estimated 1RM, and celebrated.
+- **Charts** — load over time per movement, top set and estimated 1RM, sessions logged, volume, and
+  a four-week comparison.
+- **Weekly streak** — counts the weeks you trained, not the days you missed.
+- **Goals** — a weight you are chasing, or a target number of total reps, measured from logged sets.
+- **Levels and Lifty** — an XP level and a mascot that gains gear as you train.
+- **Plate maths** — what to load on the bar; kg or lb, with warm-up sets marked.
+- **Reminders** — at most two a day, and they back off if you stop answering.
+- **iCloud sync** — through the user's own private iCloud; free on every plan.
+- **Languages** — English, Spanish and French, including voice commands.
+
+## Pricing
+
+- **Free for ever** — unlimited logging, full history, weekly streak, personal records, plate maths,
+  the one-month chart range, iCloud sync, and two custom movements.
+- **Pro** — the longer chart ranges (three months, six months, all time) and unlimited custom
+  movements. Monthly, yearly, or a one-time lifetime unlock; a 3-day free trial on monthly and
+  yearly. Prices are set by the App Store per region.
+
+## Privacy
+
+No account, no signup, no analytics, no ads, no tracking, no third parties. The app does not collect
+any information when it is downloaded and used. Data is stored on the device; uninstalling the app
+is a complete opt-out. Nothing leaves the phone except an optional sync to the user's own private
+iCloud. Purchases are handled by Apple.
+
+## Support
+
+paulocristo@me.com · Made by Paulo Cristo · Gym Journal is an independent app, not affiliated with
+Apple. Apple, iPhone and iPad are trademarks of Apple Inc.

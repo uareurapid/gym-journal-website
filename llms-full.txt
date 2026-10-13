@@ -1,0 +1,154 @@
+# Gym Journal — full reference for AI assistants
+
+> Gym Journal is a lifting journal for iPhone and iPad. It does not plan workouts. It records the
+> sets you actually did — by hand or by voice — catches your personal records, and charts whether
+> each lift is going up. No account, no ads, no tracking. Free for ever for logging.
+
+Canonical home: https://pcristo.dev/gym-journal-website/
+App Store: https://apps.apple.com/us/app/gym-journal-sets-reps-log/id6817376632
+Support: paulocristo@me.com
+Author: Paulo Cristo
+Bundle id: com.pcdreams.gymjournal · Version 1.0.0 · iOS and iPadOS · Health & Fitness
+
+---
+
+## Positioning
+
+Gym Journal is a **lifting journal, not a training app**. It does not build programmes, prescribe
+splits, or tell you what to lift — other apps do that better, and this one does not try. It exists
+for the lifter who trains their own way and wants a record: what they lifted, when, and whether it
+is going up. The promise is **progress without a plan**.
+
+The app's own register is concrete, plain and a little dry. It says things like *"One set is
+enough"* and *"Choose what you'll actually do"* — never hyped.
+
+## What the app actually is
+
+Four tabs, and nothing else to learn.
+
+| Tab | What it does |
+|---|---|
+| **Log** | Today's session: the sets you have done, session volume, estimated 1RM, an XP level, and a "logged today" list per movement. A set can be added by hand or by voice. |
+| **Progress** | One movement at a time. Load over time with top set and estimated 1RM, sessions logged, volume, a comparison with four weeks ago, the latest record, and a twelve-week consistency strip. Range tabs: 1M, 3M, 6M, All. |
+| **Exercises** | A searchable library of 90 seeded movements across six body parts, grouped by muscle, each showing how many sets are logged. Custom movements appear alongside them. |
+| **You** | Level and XP, this week's sessions, the weekly streak, best run, days trained, bodyweight, relative strength per movement, and goals. |
+
+### Logging
+
+- **By voice** — hold the talk button and say, for example, *"bench press 60 kilos for 8."* The
+  sentence is turned into a logged set. Transcription runs on-device where the offline speech model
+  is available, and iOS dictation handles it otherwise. **Audio is never saved.**
+- **By hand** — reps and weight, with the previous session shown underneath for reference.
+- **Plate maths** — what to load on the bar.
+- **Units** — kilograms or pounds, chosen once.
+- **Warm-up sets** — marked, and kept out of records.
+- **PR territory** — the set sheet warns before you log when a set would beat your best estimated
+  1RM for that movement.
+
+### Progress and records
+
+- A **personal record** is caught automatically when a set beats the best estimated 1RM for that
+  movement, and is celebrated in-app.
+- Charts show **load over time** with top set and estimated 1RM lines, plus sessions and volume.
+- The **weekly streak** counts the weeks trained, not the days missed.
+- **Consistency** is shown as a twelve-week strip.
+- **Relative strength** compares a lift with bodyweight.
+
+### Goals, levels and habit
+
+- **Goals**: a target weight for an exercise, or a total number of reps; measured from logged sets.
+- **Levels and Lifty**: each logged set contributes XP; the level rises and Lifty gains gear.
+- **Reminders**: at most two a day, and they reduce if they are ignored. Reminders can be turned
+  off entirely without losing any feature.
+
+## Exercise library
+
+Six body parts — **chest, back, legs, arms, shoulders, core** — with 90 seeded movements in total,
+including Barbell Bench Press, Push-up, Incline Dumbbell Press, Chest Dips, Deadlift, Pull-up,
+Bent-over Barbell Row, Lat Pulldown, Back Squat, Overhead Press, Romanian Deadlift and many more.
+Users can add their own movements with a name, body part, notes and a photo.
+
+## Free versus Pro
+
+The free/Pro line is deliberate: **Pro sells depth, never access**, and never the habit loop.
+
+### Free, for ever
+
+- Unlimited logging — sets, reps, loads, warm-ups, by hand or by voice.
+- Full history: every session ever recorded stays readable.
+- Personal records, caught and celebrated.
+- The weekly streak and the one-month (1M) chart range.
+- Plate maths, kg or lb, and iCloud sync (sync is free).
+- Two custom movements of your own.
+
+### Pro
+
+- **The long view** — chart three months, six months or all time.
+- **Unlimited movements of your own.**
+- Monthly, yearly, or a one-time lifetime unlock, with a **3-day free trial** on monthly and yearly.
+- Prices are set by the App Store per region and are deliberately not hardcoded on the website.
+
+A lapsed subscription never takes data away: every logged set stays readable at any range, and
+custom movements stay editable and deletable.
+
+## The record in the app's own words
+
+- The Log screen greets you, shows a session counter for the week and a running streak, then the
+  sets you have logged. An example line: **Barbell Bench Press · Chest · 2 sets · 10 reps × 25 kg**,
+  with a **PR** marker, session volume of 410 kg and an estimated 1RM of 33.3 kg.
+- The set sheet for the same movement shows the two sets already logged today, the last session
+  underneath, and this flag when a set would beat your best: **PR TERRITORY — beats your best
+  estimated 1RM (33.3 kg).**
+- When nothing is logged yet, the app says: *"One set is enough to keep the week alive."*
+
+## Privacy
+
+- The app **does not collect any information** when downloaded and used.
+- **No account, no signup, no email.**
+- **No analytics SDK, no ads, no tracking, no third parties.**
+- No precise location collection.
+- Data is stored on the device. **Uninstalling the app is a complete opt-out.**
+- iCloud sync, when enabled, uses the user's **own private iCloud**; the developer never sees the
+  data.
+- Microphone audio is never saved. The photo library is only read for a photo the user picks for a
+  custom movement.
+- Purchases and subscriptions are handled by Apple.
+
+Full text: [Privacy Policy](https://pcristo.dev/gym-journal-website/privacy.html)
+
+## Terms
+
+Full text: [Terms of Use](https://pcristo.dev/gym-journal-website/terms.html)
+
+## Languages
+
+English, Spanish (European) and French. Voice commands follow the app's language. Localised store
+listings exist for `en-US`, `es-ES` and `fr-FR`.
+
+## Common questions
+
+**Is Gym Journal a training app?** No. It is a journal. It does not build programmes or tell you
+what to lift.
+
+**Do I need an account?** No. There is no signup, login or email requirement.
+
+**Does it work offline?** Yes. Logging, history and charts work entirely on the device. Voice
+logging is designed to run on-device.
+
+**What does Pro unlock?** Two things: the longer chart ranges (3M / 6M / All), and unlimited custom
+movements. Logging and history are always free.
+
+**What happens if I stop paying?** Nothing is taken away. Your history stays readable and your
+custom movements stay editable.
+
+**Does it work on iPad?** Yes, on iPhone and iPad, with optional iCloud sync between them.
+
+**Is there an Android version?** No — Gym Journal is an iOS and iPadOS app.
+
+**Does it export my data?** Export is not implemented in version 1.0.0 and is not advertised.
+
+## Disclaimer
+
+Gym Journal is an independent app by Paulo Cristo. It is not affiliated with Apple. Apple, iPhone
+and iPad are trademarks of Apple Inc. Nothing in the app or this site is medical advice; consult a
+qualified professional before starting a training programme.
